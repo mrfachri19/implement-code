@@ -49,7 +49,7 @@ const potonganHarga = function (harga,voucher) {
 const ongkos = function  (jarak) {
    let jarakTambahan = jarak - 2
    if (jarak <= 2) {
-       return 5000
+       return 5000;
    } else {
        return jarakTambahan * 3000 + 5000;
    }
@@ -60,7 +60,7 @@ const pajakMakanan = function (harga, pajak) {
  if (pajak === true) {
    return harga * persenPajak;
  } else if (pajak === false) {
-   return "bebas pajak"
+   return 0;
  }
 };
 
