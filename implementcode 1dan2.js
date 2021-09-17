@@ -12,5 +12,8 @@ isPalindrome("bibib");
 
 
 // tugas 2 kodenya
-let arr = ['saya', 'makan', 'ayam'];
-console.log(arr.reverse().join(' '));
+let arr = 'saya makan ayam'
+let arr2 = arr.split(' ');
+console.log(arr)
+let arr3 = arr2.reverse().join(' ');
+console.log(arr3);
