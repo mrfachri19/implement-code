@@ -1,6 +1,6 @@
 // tugas 1 kodenya
 
-var isPalindrome = function (string) {
+let isPalindrome = function (string) {
     if (string == string.split('').reverse().join('')) {
         console.log(string + ' is palindrome.');
     }
